@@ -103,11 +103,14 @@ For detailed explanation of the `.vimspector.json` format, see the
 # Features and Usage
 
 The plugin is a capable Vim graphical debugger for multiple languages.
-It's mostly tested for C++, Python and TCL, but in theory supports any
-language that Visual Studio Code supports (but see caveats).
+It's mostly tested for C++,
+¿Python¿ and TCL,
+but in theory supports any language that Visual Studio Code supports (but see caveats).
 
-The [Vimspector website][website] has an overview of the UI, along with basic
-instructions for configuration and setup.
+
+The [Vimspector website][website] has an overview of the UI,
+along with basic instructions for configuration and  setup.
+
 
 But for now, here's a (rather old) screenshot of Vimspector debugging Vim:
 
@@ -143,8 +146,11 @@ And a couple of brief demos:
 
 ## Supported languages
 
-The following table lists the languages that are "built-in" (along with their
-runtime dependencies). They are categorised by their level of support:
+The following table lists the languages that
+are "built-in" (along with their runtime dependencies).
+They are categorised by
+their level of support:
+
 
 * `Tested` : Fully supported, Vimspector regression tests cover them
 * `Supported` : Fully supported, frequently used and manually tested
@@ -190,8 +196,8 @@ There are 3 installation methods:
 
 ### Method 1: Using a release tarball and Vim packages
 
-Release tarballs come with debug adapters for the default languages
-pre-packaged. To use a release tarball:
+Release tarballs come with debug adapters for the default languages pre-packaged.
+To use a release tarball: 
 
 1. [Check the dependencies](#dependencies)
 2. Untar the release tarball for your OS into `$HOME/.vim/pack`:
@@ -215,7 +221,8 @@ pre-packaged. To use a release tarball:
 ### Method 2: Using a repo clone, Vim packages and select gadgets to be installed
 
 1. [Check the dependencies](#dependencies)
-1. Install the plugin as a Vim package. See `:help packages`.
+1. Install the plugin as a Vim package.
+    See `:help packages`.
 2. Add `packadd! vimspector` to your `.vimrc`
 2. Install some 'gadgets' (debug adapters) - see [here for installation commands](#install-some-gadgets) and [select gadgets to install](#supported-languages)
 3. Configure your project's debug profiles (create `.vimspector.json`, or set
@@ -231,9 +238,11 @@ pre-packaged. To use a release tarball:
    Plugin 'puremourning/vimspector'
    ```
 
-2. Install some 'gadgets' (debug adapters) - see [here for installation commands](#install-some-gadgets) and [select gadgets to install](#supported-languages)
-3. Configure your project's debug profiles (create `.vimspector.json`, or set
-   `g:vimspector_configurations`) - see the [reference guide][vimspector-ref]
+2. Install some 'gadgets' (debug adapters)
+    - see [here for installation commands](#install-some-gadgets) and [select gadgets to install](#supported-languages)
+3. Configure your project's debug profiles
+    (create `.vimspector.json`,
+    or set  `g:vimspector_configurations`) - see the [reference guide][vimspector-ref]
 
 The following sections expand on the above brief overview.
 
