@@ -280,12 +280,13 @@ Which Linux versions? I only test on Ubuntu 18.04 and later and RHEL 7.
 
 neovim doesn't implement some features Vimspector relies on:
 
-* WinBar - used for the buttons at the top of the code window and for changing
-  the output window's current output.
+* WinBar - used for the buttons at the top of the code window and
+    for changing  the output window's current output.
 * Prompt Buffers - used to send commands in the Console and add Watches.
-  (*Note*: prompt buffers are available in neovim nightly)
+      (*Note*: prompt buffers are available in neovim nightly)
 * Balloons - this allows for the variable evaluation popup to be displayed when
-  hovering the mouse. See below for how to create a keyboard mapping instead.
+  hovering the mouse.
+  See below for how to create a keyboard mapping instead.
 
 Workarounds are in place as follows:
 
